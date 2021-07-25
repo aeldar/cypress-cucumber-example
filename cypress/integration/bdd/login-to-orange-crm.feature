@@ -1,13 +1,12 @@
 Feature: Login to Orange CRM
 
-    Scenario Outline: Login to Orange CRM Website
+  Scenario Outline: Login to Orange CRM Website
 
-        Given User is at the login page
-        When User enters username as '<username>' and password as '<password>'
-        And User clicks on login button
-        And Some shit is going to be happened
-        Then User is able to successfully login to the Website
-        Examples:
-            | username | password |
-            | Admin    | admin123 |
-
+    Given User is at the login page
+    When User enters username as "<username>" and password as "<password>"
+    And User clicks on login button
+    And Some shit is going to be happened
+    Then User is able to successfully login to the Website
+    Examples:
+      | username | password |
+      | Admin    | admin123 |
