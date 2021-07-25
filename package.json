@@ -1,11 +1,12 @@
 {
-  "name": "cyp-bdd",
+  "name": "cypress-cucumber-example",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "cy": "cypress",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "cypress open",
+    "test": "cypress run"
   },
   "keywords": [],
   "author": "",
